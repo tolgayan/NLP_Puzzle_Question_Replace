@@ -1,0 +1,41 @@
+.puzzle_board {
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+}
+
+.puzzle_cell {
+    background: #FFF;
+    border: 1px solid #555;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    color: #AAA;
+}
+
+.puzzle_cell_letter{
+    font-size:xx-large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+    color: black;
+}
+.puzzle_cell_number{
+    font-size: small;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 5px;
+    padding-right: 70px;
+    color: blue;
+}
+
+.clue_col {
+    background: rgba(255, 255, 255, 0.795);
+    border: 1px solid #555;
+}
+
+.information{
+    font-size: medium;
+    font-weight: bold;
+    text-align: right;
+}
